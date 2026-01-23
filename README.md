@@ -7,7 +7,8 @@ Personal Counter-Strike 2 configuration files collection.
 ### Core Config Files
 
 - **`autoexec.cfg`** - Auto-execute config file, automatically loaded when game starts
-- **`x.cfg`** - Main config file, contains sensitivity, crosshair, viewmodel settings, etc.
+- **`x.cfg`** - Main config file, contains sensitivity, crosshair, viewmodel settings, etc. (for local/offline use)
+- **`x_online.cfg`** - Community server config file, removes buy commands that may be restricted on servers
 - **`buy.cfg`** - Buy menu configuration file
 
 ## 🚀 Usage
@@ -15,7 +16,7 @@ Personal Counter-Strike 2 configuration files collection.
 ### Installation
 
 1. Clone or download this repository
-2. Copy the three `.cfg` files to CS2 config directory:
+2. Copy all `.cfg` files to CS2 config directory:
    ```
    Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\
    ```
@@ -39,6 +40,7 @@ Personal Counter-Strike 2 configuration files collection.
   - `C` - Flashbang quick switch
   - `N` - Jump throw bind
   - `B` - Radar scale toggle
+  - `7` - Switch to online config (for community servers)
   - `Mouse5` - Rethrow last grenade (practice mode)
   - `M` - Timescale toggle (practice mode)
   - `Y` - Place bot (practice mode)
@@ -54,4 +56,5 @@ Modify the following files according to your preferences:
 
 - Some binds (like `sv_rethrow_last_grenade`) only work with `sv_cheats 1`
 - Config files are compatible with both CS:GO and CS2
+- Press `7` to switch to `x_online.cfg` when playing on community servers (removes buy commands that may be restricted)
 - It's recommended to backup your original config before modifying

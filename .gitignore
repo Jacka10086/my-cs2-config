@@ -1,7 +1,9 @@
 *.cfg
 !autoexec.cfg
 !x.cfg
+!x_online.cfg
 !buy.cfg
+!practice.cfg
 *.vcfg
 *.tmp
 *.bak
