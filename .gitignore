@@ -4,6 +4,7 @@
 !x_online.cfg
 !buy.cfg
 !practice.cfg
+!crosshair_*.cfg
 *.vcfg
 *.tmp
 *.bak
