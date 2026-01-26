@@ -37,6 +37,7 @@ Personal Counter-Strike 2 configuration files collection.
 - **Crosshair**: Purple crosshair, small size
 - **Viewmodel**: FOV 68, custom offsets
 - **Key Bindings**: 
+  - `Left Alt` - Switch hands (left/right hand toggle)
   - `C` - Flashbang quick switch
   - `N` - Jump throw bind
   - `B` - Radar scale toggle
